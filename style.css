@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*menu*/
+.menu{
+	margin:0; padding: 0; width:100%; min-height: 50px; align-items: center
+}
+
+.menu ul{
+	list-style: none; display: flex; align-items: center
+}
+
+.menu ul li a{
+	text-decoration: none; padding: 5px 20px; display:block; border-radius: 10px; color:rgba(117,116,116,1.00)
+}
+
+.menu ul li a:hover{
+	background-color:darkred; color: white
+}
+
+.logo{
+	width:15%; height: 15%; margin:0; padding:0; align-items: center
+}
+.menu-icon img{
+	width: 70%
+}
+
+/*banner*/
+#slide .owl-dots{position:absolute; bottom:10px; left:45%}
+#slide .owl-dots .owl-dot span {
+	width: 12px; height: 12px;
+}
+
+#slide .owl-nav{position: absolute; left: 0px; top: 50%; width: 100%}
+#slide .owl-nav[class*='owl-']{
+	font-size: 60px; color: #FFF
+		
+}
+
+#slide .owl-nav .owl-next{
+	position:absolute; right:2%
+}
+#slide .owl-nav .owl-prev{
+	position:absolute; left: 2%
+}
+
+#slide .owl-nav [class*='owl-']:hover{
+	background: none;
+	border: none;
+	color:#FB8F90;
+	text-decoration: none;
+}
+.container{
+	width: 100%; margin:0; padding:0
+}
+
+banner{
+	width:100%; margin:0
+}
+banner img{
+	width:100%; height: auto; margin: auto; display:block
+}
+
+/*main*/
+main{
+	width:100%; min-height:500px
+}
+main .new-arrival{
+	margin: 0 auto; width:65%
+}
+main .new-arrival h1{
+	text-decoration-skip: ink; text-decoration: underline; text-decoration-color: darkred
+}
+
+
+	.vien{
+		border: 1px solid darkred; border-radius: 5px; padding: 10px; position: relative; width:100%; overflow: hidden
+	}
+	.text-do{
+		color:darkred
+	}
+
+	.icon{
+		position:absolute; width:80%; display:flex; justify-content: space-around; height:40px; left:10%; top: -20%; transition: all 1s
+	}
+
+	.vien:hover .icon{
+		top:35%
+	}
+
+	.icon a{
+		width:40px; heigh:40px; background-color:darkred; border-radius: 50%; display: flex; justify-content: center; align-items:center; text-decoration:none; color: white
+	}
+
+main .container{width:100%; margin:0; padding:0}
+main .product-feature{width:80%; margin:0; padding:0; position:absolute; top:5%; left: 10% }
+main .product-feature h1{
+	text-decoration-skip: ink; text-decoration: underline; text-decoration-color: darkred; text-align:center
+}
+	.img100{width:100%}
+	.position-relative{position:relative}
+	.position-absolute{position:absolute}
+	.vien-trang{
+		display:block; border: 1px solid darkred; border-radius: 5px; padding: 10px; position: relative; width:100%; overflow: hidden; text-align: center; color: darkred; font-weight: 700
+	}
+	.vien-trang a{text-decoration:none; color:darkred; font-weight:200}
+	.vien-trang a:hover{color:white}
+
+/*Blog*/
+main .blog h1{
+	text-decoration: underline; text-decoration-color: darkred; text-align:center
+}
+
+main .blog{
+	margin: 0 auto; width:65%
+}
+
+.contact-us{margin:0; padding:0; top:5%; position:absolute; left:40%; text-align:center}
+.align-center{text-align:center}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+/*Footer*/
+form {
+	border: 1px solid rgba(176,174,174,0.5); padding:50px; box-shadow:3px 3px 10px 0px grey 
+}
+.w-500{
+	width:100%
+}
+
+form button{
+	border:1px rgba(83,6,7,1.00); padding:10px 15px; background-color:darkorange; color:white; border-radius: 5px
+}
+
+/*Contact Page*/
+.map{border: 1px solid rgba(176,174,174,0.5); padding:10px; box-shadow:3px 3px 10px 0px grey}
+iframe{
+	width:100%; height:300px
+}
+
+main h1{
+	text-decoration: underline; text-decoration-color: darkred; text-align:center
+}
